@@ -19,7 +19,7 @@ for (let i=0; i<6; i++) {
 // Change index 'i' to numbers less than 6 as opposed to 4, so 4 and 5 are recognized within the loop
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
-//   - Which part of the example loop do you need to change to do this?
+//   - Which part of the example loop do you need to change to do this? 
 // Change i to equal 3 so it does not recognize 0-2 in the loop
 console.log('count from 3 to 5');
 for (let i=3; i<6; i++) {  
