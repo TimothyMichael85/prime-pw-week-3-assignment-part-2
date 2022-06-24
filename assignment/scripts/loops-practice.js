@@ -3,6 +3,7 @@ console.log('****** Loops Practice *******');
 
 // 1. 'for' loop
 console.log('---- 1. For loops ----');
+
 // Example: a for loop to console.log numbers from 0 to 3
 console.log('count from 0 to 3');
 // start i at 0, while i is < 4 do code between {}, afterwards add 1 to i (i++)
@@ -15,8 +16,9 @@ console.log('count from 0 to 5');
 for (let i=0; i<6; i++) {  
   console.log(i);
 }
-//   - Which part of the example loop do you need to change to do this?
+// - Which part of the example loop do you need to change to do this?
 // Change index 'i' to numbers less than 6 as opposed to 4, so 4 and 5 are recognized within the loop
+
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this? 
@@ -25,6 +27,7 @@ console.log('count from 3 to 5');
 for (let i=3; i<6; i++) {  
   console.log(i);
 }
+
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 //Change i to equal 2 so it does not recognize 0, 2 in the loop. Change 'i' to numbers less than 11 so 10 is recognized. Then add 2 to 'i' so that only even numbers are recognized within the loop
@@ -57,7 +60,6 @@ let counter = 0;
 while (counter < stars.length) {
 console.log('Some stars using while:', stars[counter]);
 counter++; 
-
 }
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
@@ -67,7 +69,6 @@ while (i <5){
 i++;
 console.log(i);
 }
-
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
